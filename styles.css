@@ -192,7 +192,7 @@ body {
 @media (max-width: 768px) {
 
     body{
-        margin: 0% 4%;
+        margin: 0% 2%;
     }
 
     .nav-list {
@@ -208,7 +208,7 @@ body {
     }
 
     .corousel-section{
-        margin: 10% 10%;
+        margin: 10% 0%;
     }
     .carousel{
         border-radius: 10px;
