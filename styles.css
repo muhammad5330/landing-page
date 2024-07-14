@@ -169,7 +169,7 @@ body {
     .tagline-section button{
         margin: 4% 0% 0% 0%; 
         padding: 3% 5%;
-        font-size: larger;
+        font-size: large;
         border: 1px solid black;
         background: transparent;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
