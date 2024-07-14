@@ -214,6 +214,7 @@ body {
     background: rgba(88, 208, 203, 0.1);
     border-radius: 30px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 5% 0%;
 }
 
 .image-div {
@@ -378,7 +379,7 @@ body {
 
     .section {
         flex-direction: column;
-        margin: 100% 0%;
+        margin: 10% 0%;
         padding: 10% 0%;
     }
 
