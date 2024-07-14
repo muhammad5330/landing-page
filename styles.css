@@ -79,6 +79,6 @@ body {
         padding: 2%;
         align-items: center;
         font-size: small;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
