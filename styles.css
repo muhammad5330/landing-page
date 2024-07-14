@@ -6,6 +6,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background: white;
     margin: 0% 4%;
 }
 
@@ -413,6 +414,6 @@ body {
 
 
     .contact-section {
-        margin: 0% 10%;
+        margin: 0% 20%;
     }
 } 
