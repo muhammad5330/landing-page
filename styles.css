@@ -54,11 +54,16 @@ body {
 }
 
 .btn-login {
-    background-color: #007BFF;
+    border: 1px solid  black;
+    background:transparent;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    
 }
 
 .btn-login:hover {
-    background-color: #0056b3;
+    background:transparent;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
 }
 
 
@@ -91,5 +96,6 @@ body {
         align-items: center;
         font-size: small;
         justify-content: space-between;
+        font-weight: bold;
     }
 }
