@@ -6,8 +6,10 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    
+    margin: 0% 4%;
     }
+
+    /* --------------------------------------NAVBAR SECTION CSS-------------------------------------------- */
 
 .container {
     width: 90%;
@@ -67,7 +69,7 @@ body {
     background: transparent;
     border-radius: 50px;
     padding: 1.5%;
-    margin: 0% 5%;
+    margin: 0% 0%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
     position: relative; /* Ensure z-index works correctly */
     background: linear-gradient(90deg, 
@@ -90,7 +92,7 @@ body {
 
 
 
-/* COROUSEL CSS  */
+/* -------------------------------------------------COROUSEL CSS-----------------------------------------  */
 
 .corousel-section{
     margin: 3% 0%;
@@ -120,8 +122,7 @@ body {
 }
 
 .corousel-button {
-    position: absolute; /* Position the button absolutely within the slider section */
-    width: 30%;
+    position: absolute;
     top: 115%; /* Center vertically */
     left: 5%; /* Center horizontally */
     transform: translate(-0%, -0%); /* Adjust the center alignment */
@@ -145,7 +146,9 @@ body {
 }
 
 
-/* TAGLINE-SECTION CSS */
+
+
+/* -----------------------------------------TAGLINE-SECTION CSS------------------------------------------------ */
 
 
 .tagline-section{
@@ -175,7 +178,22 @@ body {
 }
 
 
+/* ------------------------------------------MOCK EXAM SECTION CSS----------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------MEIDA QUERIES CSS------------------------------------------- */
 @media (max-width: 768px) {
+
+    body{
+        margin: 0% 8%;
+    }
 
     .nav-list {
         margin: 0 2%;
@@ -190,7 +208,7 @@ body {
     }
 
     .corousel-section{
-        margin: 10% 0%;
+        margin: 10% 10%;
     }
     .carousel{
         border-radius: 10px;
