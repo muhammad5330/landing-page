@@ -399,14 +399,15 @@ body {
         color: #000;
     }
 
-    
+
 
     .section .btn{
         width: 800%;
     }
 
-
-
-
+    .text-section {
+        margin-right: 2%;
+        padding: 0% 5%;
+    }
 
 }
