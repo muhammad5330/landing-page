@@ -92,9 +92,43 @@ body {
     }
 
     .nav-list ul {
-        padding: 3% 5%;
+        padding: 3% 50%;
         align-items: center;
         font-size: small;
         justify-content: space-between;
     }
+}
+
+
+/* COROUSEL CSS  */
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-inner {
+    display: flex;
+    width: 300%; /* 3 slides, adjust if more slides */
+    animation: slide 12s infinite;
+}
+
+.carousel-item {
+    width: 100%;
+    flex: 1 0 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    33.33% { transform: translateX(0); }
+    44.44% { transform: translateX(-100%); }
+    77.77% { transform: translateX(-100%); }
+    88.88% { transform: translateX(-200%); }
+    100% { transform: translateX(-200%); }
 }
