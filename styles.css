@@ -386,6 +386,13 @@ body {
         flex-direction: column;
     }
 
+    .image-div img {
+        max-height: 300px;
+        /* Adjust this value as needed */
+        height: auto;
+        width: auto;
+    }
+
 
 
 }
