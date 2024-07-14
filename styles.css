@@ -192,12 +192,9 @@ body {
 @media (max-width: 768px) {
 
     body{
-        margin: 0% 2%;
+        margin: 0% 3%;
     }
 
-    .nav-list {
-        margin: 0 2%;
-    }
 
     .nav-list ul {
         padding: 3% 10%;
