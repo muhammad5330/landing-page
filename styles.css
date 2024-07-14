@@ -384,6 +384,7 @@ body {
 
     .section{
         flex-direction: column;
+        margin: 5% 0%;
     }
 
     .image-div img {
@@ -398,8 +399,6 @@ body {
         margin-bottom: 1%;
         color: #000;
     }
-
-
 
     .section .btn{
         width: 80%;
