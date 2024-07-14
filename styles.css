@@ -73,7 +73,7 @@ body {
 @media (max-width: 768px) {
     .nav-list {
         padding: 5%;
-        margin: 0 10%;
+        margin: 0 5%;
     }
 
     .nav-list ul {
