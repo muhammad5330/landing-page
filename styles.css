@@ -122,9 +122,10 @@ body {
 }
 
 .corousel-button {
+    width: 30%;
     position: absolute;
-    top: 115%; /* Center vertically */
-    left: 5%; /* Center horizontally */
+    top: 110%; /* Center vertically */
+    left: 10%; /* Center horizontally */
     transform: translate(-0%, -0%); /* Adjust the center alignment */
     padding: 1% 2%;
     background-color: black;
