@@ -62,7 +62,7 @@ body {
     background-color: #218838;
 }
 
-.nav-list{
+.nav-list {
     background: green;
     border-radius: 50px;
     padding: 1.5%;
@@ -70,10 +70,21 @@ body {
 }
 
 
-.nav-list ul{
+.nav-list ul {
     display: flex;
     text-align: center;
     list-style: none;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
+@media (max-width: 768px) {
+    .nav-list {
+        padding: 5%;
+        margin: 0 10%;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
