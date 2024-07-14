@@ -103,6 +103,10 @@ body {
 
 /* COROUSEL CSS  */
 
+.corousel-section{
+    margin: 3% 0%;
+}
+
 .carousel {
     width: 100%;
     overflow: hidden;
@@ -121,7 +125,7 @@ body {
 }
 
 .carousel-item img {
-    width: 40%;
+    width: 35%;
     display: block;
 }
 
