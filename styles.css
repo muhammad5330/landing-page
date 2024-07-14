@@ -6,7 +6,14 @@
 
 body {
     font-family: Arial, sans-serif;
-}
+ 
+    background: linear-gradient(90deg, 
+        rgba(88, 208, 203, 0.8) 0%, 
+        rgba(141, 122, 255, 0.8) 33%, 
+        rgba(248, 188, 36, 0.8) 66%, 
+        rgba(247, 129, 118, 0.8) 100%
+    ); 
+    }
 
 .container {
     width: 90%;
@@ -56,11 +63,15 @@ body {
 
 
 .nav-list {
-    background: green;
+    background: transparent;
     border-radius: 50px;
     padding: 1.5%;
     margin: 0% 5%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    position: relative; /* Ensure z-index works correctly */
 }
+
+
 
 
 .nav-list ul {
@@ -76,7 +87,7 @@ body {
     }
 
     .nav-list ul {
-        padding: 2%;
+        padding: 3% 0%;
         align-items: center;
         font-size: small;
         justify-content: space-between;
