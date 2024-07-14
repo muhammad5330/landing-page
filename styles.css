@@ -267,7 +267,7 @@ body {
 /* ----------------------------------------------CONTACT US CSS------------------------------------------- */
 
 .contact-section {
-    background:  rgba(248, 188, 36, 0.4);
+    background: rgba(248, 188, 36, 0.4);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -382,7 +382,7 @@ body {
                 rgba(247, 129, 118, 0.4) 100%);
     }
 
-    .section{
+    .section {
         flex-direction: column;
         margin: 5% 0%;
         padding: 10% 0%;
@@ -401,7 +401,7 @@ body {
         color: #000;
     }
 
-    .section .btn{
+    .section .btn {
         width: 80%;
     }
 
@@ -410,8 +410,8 @@ body {
         padding: 0% 2%;
     }
 
-    
-.contact-section{
-    margin: 3%;
-}
+
+    .contact-section {
+        margin: 5%;
+    }
 }
