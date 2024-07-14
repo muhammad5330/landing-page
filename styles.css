@@ -190,14 +190,14 @@ body {
     }
 
     .corousel-section{
-        margin: 8% 0%;
+        margin: 10% 0%;
     }
     .carousel{
         border-radius: 10px;
     }
 
     .corousel-button{
-        top: 43%;
+        top: 47%;
         width: 40%;
         font-size: small;
         padding: 3% 0%;
