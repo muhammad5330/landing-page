@@ -385,7 +385,7 @@ body {
     .section{
         flex-direction: column;
         margin: 5% 0%;
-        padding: 50% 0%;
+        padding: 10% 0%;
     }
 
     .image-div img {
