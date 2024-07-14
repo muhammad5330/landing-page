@@ -189,9 +189,11 @@ body {
         justify-content: space-between;
     }
 
+    .corousel-section{
+        margin: 3% 0%;
+    }
     .carousel{
         border-radius: 10px;
-        margin: 2% 0%;
     }
 
     .corousel-button{
