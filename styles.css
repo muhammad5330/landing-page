@@ -114,6 +114,7 @@ body {
 
 .corousel-button {
     position: absolute; /* Position the button absolutely within the slider section */
+    width: 30%;
     top: 115%; /* Center vertically */
     left: 5%; /* Center horizontally */
     transform: translate(-0%, -0%); /* Adjust the center alignment */
@@ -189,6 +190,12 @@ body {
 
     .carousel{
         border-radius: 10px;
+    }
+
+    .corousel-button{
+        top: 37%;
+        width: 40%;
+        font-size: large;
     }
 
     .tagline-section h1{
