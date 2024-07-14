@@ -93,6 +93,8 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
+    border-radius: 30px;
+
 }
 
 .carousel-inner {
