@@ -72,12 +72,14 @@ body {
 
 @media (max-width: 768px) {
     .nav-list {
-        padding: 5%;
-        margin: 0 5%;
+        padding: 0%;
+        margin: 0 2%;
     }
 
     .nav-list ul {
+        padding: 3%;
         align-items: center;
         font-size: small;
+        justify-content: space-around;
     }
 }
