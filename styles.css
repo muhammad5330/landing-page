@@ -112,6 +112,21 @@ body {
     display: block;
 }
 
+.corousel-button {
+    position: absolute; /* Position the button absolutely within the slider section */
+    top: 115%; /* Center vertically */
+    left: 5%; /* Center horizontally */
+    transform: translate(-0%, -0%); /* Adjust the center alignment */
+    padding: 1% 2%;
+    background-color: black;
+    font-size: larger;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 10; /* Ensure the button is above the slider */
+}
+
 @keyframes slide {
     0% { transform: translateX(0); }
     33.33% { transform: translateX(0); }
