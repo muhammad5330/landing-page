@@ -254,9 +254,15 @@ body {
     width: 50%;
     border: 1px solid black;
     background: transparent;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);    /* Soft shadow effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);    /* Soft shadow effect */
     border-radius: 50px;
     font-weight: bold;
+    background: linear-gradient(90deg,
+    rgba(88, 208, 203, 0.4) 0%,
+    rgba(141, 122, 255, 0.4) 33%,
+    rgba(248, 188, 36, 0.4) 66%,
+    rgba(247, 129, 118, 0.4) 100%);
+}
 }
 
 /* ----------------------------------------------CONTACT US CSS------------------------------------------- */
