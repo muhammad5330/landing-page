@@ -92,7 +92,8 @@ body {
     }
 
     .nav-list ul {
-        padding: 3% 50%;
+        padding: 3% 10%;
+        font-weight: bold;
         align-items: center;
         font-size: small;
         justify-content: space-between;
@@ -120,7 +121,7 @@ body {
 }
 
 .carousel-item img {
-    width: 100%;
+    width: 40%;
     display: block;
 }
 
