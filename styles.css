@@ -366,6 +366,15 @@ body {
         font-size: 200%;
     }
 
+    .tagline-section button {
+        margin: 4% 0% 0% 0%;
+        padding: 4% 6%;
+        font-size: large;
+        background: transparent;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        /* Soft shadow effect */
+        border-radius: 50px;
+    }
 
     .section {
         flex-direction: column;
