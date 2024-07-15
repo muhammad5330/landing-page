@@ -40,11 +40,7 @@ body {
 }
 
 .auth-buttons .btn {
-    background: linear-gradient(90deg,
-            rgba(88, 208, 203, 0.4) 0%,
-            rgba(141, 122, 255, 0.4) 33%,
-            rgba(248, 188, 36, 0.4) 66%,
-            rgba(247, 129, 118, 0.4) 100%);
+    background: white;
     color: #fff;
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -76,11 +72,7 @@ body {
     /* Soft shadow effect */
     position: relative;
     /* Ensure z-index works correctly */
-    background: linear-gradient(90deg,
-            rgba(88, 208, 203, 0.4) 0%,
-            rgba(141, 122, 255, 0.4) 33%,
-            rgba(248, 188, 36, 0.4) 66%,
-            rgba(247, 129, 118, 0.4) 100%);
+    background: white;
 }
 
 
@@ -192,17 +184,12 @@ body {
     font-size: larger;
     border: 1px solid black;
     background: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     /* Soft shadow effect */
     border-radius: 50px;
-    font-weight: bold;
-    background: linear-gradient(90deg,
-            rgba(88, 208, 203, 0.4) 0%,
-            rgba(141, 122, 255, 0.4) 33%,
-            rgba(248, 188, 36, 0.4) 66%,
-            rgba(247, 129, 118, 0.4) 100%);
+    background: #000;
+    color: white;
 }
-
 
 /* ------------------------------------------MOCK EXAM SECTION CSS----------------------------------------- */
 
@@ -253,16 +240,12 @@ body {
     padding: 3% 4%;
     font-size: large;
     width: 50%;
-    border: 1px solid black;
+    border: none;
     background: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);    /* Soft shadow effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);    /* Soft shadow effect */
     border-radius: 50px;
     font-weight: bold;
-    background: linear-gradient(90deg,
-    rgba(88, 208, 203, 0.4) 0%,
-    rgba(141, 122, 255, 0.4) 33%,
-    rgba(248, 188, 36, 0.4) 66%,
-    rgba(247, 129, 118, 0.4) 100%);
+    background: #58D0CB;
 }
 
 
