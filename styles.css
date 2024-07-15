@@ -133,25 +133,6 @@ body {
     display: block;
 }
 
-.corousel-button {
-    width: 30%;
-    position: absolute;
-    top: 110%;
-    /* Center vertically */
-    left: 10%;
-    /* Center horizontally */
-    transform: translate(-0%, -0%);
-    /* Adjust the center alignment */
-    padding: 1% 2%;
-    background-color: black;
-    font-size: larger;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    z-index: 10;
-    /* Ensure the button is above the slider */
-}
 
 @keyframes slide {
     0% {
@@ -200,7 +181,7 @@ body {
     font-size: larger;
     border: 1px solid black;
     background: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     /* Soft shadow effect */
     border-radius: 50px;
     background: #000;
@@ -258,7 +239,7 @@ body {
     width: 50%;
     border: none;
     background: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);    /* Soft shadow effect */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);    /* Soft shadow effect */
     border-radius: 50px;
     font-weight: bold;
     background: #58D0CB;
@@ -352,14 +333,6 @@ body {
 
     .carousel {
         border-radius: 10px;
-    }
-
-    .corousel-button {
-        top: 45%;
-        left: 9%;
-        width: 35%;
-        font-size: small;
-        padding: 2.5% 0%;
     }
 
     .tagline-section h1 {
