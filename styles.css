@@ -1,3 +1,19 @@
+/* ASSETS */
+
+/* assets{
+    background: linear-gradient(90deg,
+rgba(88, 208, 203, 0.4) 0%,
+rgba(141, 122, 255, 0.4) 33%,
+rgba(248, 188, 36, 0.4) 66%,
+rgba(247, 129, 118, 0.4) 100%);
+
+} */
+
+
+
+
+
+/*  PAGE STYLING */
 * {
     margin: 0;
     padding: 0;
@@ -349,6 +365,7 @@ body {
     .tagline-section h1 {
         font-size: 200%;
     }
+
 
     .section {
         flex-direction: column;
