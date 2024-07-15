@@ -67,7 +67,7 @@ body {
 .btn-login {
     border: 1px solid black;
     background: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     /* Soft shadow effect */
 }
 
@@ -181,7 +181,7 @@ body {
     font-size: larger;
     border: 1px solid black;
     background: transparent;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     /* Soft shadow effect */
     border-radius: 50px;
     background: #000;
