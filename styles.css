@@ -369,6 +369,9 @@ body {
     .tagline-section button {
         margin: 4% 0% 0% 0%;
         padding: 4% 6%;
+        border: none;
+        color: white;
+        background: #000;
         font-size: large;
         background: transparent;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
