@@ -373,7 +373,6 @@ body {
         color: white;
         background: #000;
         font-size: large;
-        background: transparent;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
         /* Soft shadow effect */
         border-radius: 50px;
